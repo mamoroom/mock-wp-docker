@@ -15,6 +15,17 @@ Copy initial DB data at `containers/db/init/local`
 cp ${init data} ./containers/db/init/local
 ```
 
+Set .env for MySQL Container
+
+```
+APACHE_LOG_DIR=/var/log/apache2
+
+MYSQL_DATABASE=
+MYSQL_USER=
+MYSQL_PASSWORD=
+MYSQL_ROOT_PASSWORD=
+```
+
 Build wp containers
 
 ```bash
